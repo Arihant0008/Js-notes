@@ -43,5 +43,30 @@ const myfun = function(){
 
 
 
-console.log(typeof myfun);
+// console.log(typeof myfun);
+
+
+// -------------------------
+
+//Stack (Premitive), Heap(Non-Primitive)
+
+let myName = "Arihant"
+
+let anotherNmae = myName
+anotherNmae = "Ashu"
+
+console.log(myName);
+console.log(anotherNmae);
+
+let userOne = {
+    email : "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "Ashu@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
 
