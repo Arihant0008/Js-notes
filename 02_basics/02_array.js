@@ -1,12 +1,12 @@
 const marvel_heros = ["thor", "Ironman", "spiderman"]
 const dc_heros = ["superman", "flash", "batman"]
 
-// marvel_heros.push(dc_heros)
+// marvel_heros.push(dc_heros) // array ke ander array ho jayega as [2,3,4,[2,3,4]]
 
 // console.log(marvel_heros);
 // console.log(marvel_heros[3][1]);
 
-// const allHeros = marvel_heros.concat(dc_heros)
+// const allHeros = marvel_heros.concat(dc_heros) // as stores in a new array 
 // console.log(allHeros);
 
 const all_new_heros = [...marvel_heros, ...dc_heros]    // spread // kach ka glass break ho gaya 
